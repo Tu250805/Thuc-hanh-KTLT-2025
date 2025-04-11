@@ -1,0 +1,5 @@
+print("sinh vien : Dau Duc Tu")
+print("msv 235752020710009")
+input_string = input('Nhập chuỗi: ')
+output_string = ''.join(ch for ch in input_string if not ch.isdigit())
+print('Chuỗi sau khi loại bỏ chữ số:', output_string)
